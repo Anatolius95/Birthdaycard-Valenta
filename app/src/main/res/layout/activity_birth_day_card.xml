@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:text="Happy Birthday!"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:background="#6E6E6E" />
+
+    <ImageView
+        android:src="@drawable/cake"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:text="... from Tom"
+        android:gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:background="#FFFFFF" />
+
+</LinearLayout>
